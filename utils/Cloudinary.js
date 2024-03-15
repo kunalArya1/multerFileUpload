@@ -22,7 +22,7 @@ const uploadOnCloudinary = async (localFilePath) => {
     return Response;
   } catch (error) {
     await fs.unlinkSync(localFilePath);
-    return "chacha";
+    return null;
   }
 };
 
