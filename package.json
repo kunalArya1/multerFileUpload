@@ -1,0 +1,31 @@
+{
+  "name": "node-express-scaffold",
+  "version": "1.0.0",
+  "description": "\"A skeleton structure for Node-Express-Mongoose Application\"",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon -r dotenv/config --experimental-json-modules App.js"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "Express",
+    "js",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Kunal Kumar Arya",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
